@@ -245,7 +245,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 count++;
                 c++;
-                if (c == 2) {
+                if (c == 3) {
                     count--;
                     c = 0;
                 }
